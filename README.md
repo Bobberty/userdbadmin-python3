@@ -59,7 +59,7 @@ SOFTWARE.
 	If a user already exists, the system will exit with an error.
 
 	ex:
-	cooluser@home:~/$ userdbadmin -v database.db create UserName PassworD
+	cooluser@home:~/$ ./userdbadmin.py -v database.db create UserName PassworD
 	Created User
 	cooluser@home:~/$
 
@@ -71,7 +71,7 @@ SOFTWARE.
 	command line, it will be prompted.
 
 	ex:
-	cooluser@home:~/$ userdbadmin -v database.db changepassword UserName PassworD
+	cooluser@home:~/$ ./userdbadmin.py -v database.db changepassword UserName PassworD
 	Changed Password
 	cooluser@home:~/$
 
@@ -84,7 +84,7 @@ SOFTWARE.
 	option will show the password check results.
 
 	ex:
-	cooluser@home:~/$ userdbadmin -v database.db verifypw UserName PassworD
+	cooluser@home:~/$ ./userdbadmin.py -v database.db verifypw UserName PassworD
 	Password Check Good
 	cooluser@home:~/$
 
@@ -96,7 +96,7 @@ SOFTWARE.
 	the command line, it will be prompted.
 
 	ex:
-	cooluser@home:~/$ userdbadmin -v database.db deluser UserName PassworD
+	cooluser@home:~/$ ./userdbadmin.py -v database.db deluser UserName PassworD
 	User Removed
 	cooluser@home:~/$
 
@@ -107,7 +107,7 @@ SOFTWARE.
 	has an option to output in a python list by using '-p'.
 	
 	ex:
-	cooluser@home:~/$ userdbadmin database.db list
+	cooluser@home:~/$ ./userdbadmin.py database.db list
 	User1
 	User2
 	Bob
