@@ -32,7 +32,7 @@ A quick and simple script for administrating a bdb user db from the command line
 		The create command will create a username/password in the 
 	specified database.  The password will be hashed using crypt(3).  If the
 	password and/or username is not on the command line, it will be prompted.
-  If a user already exists, the system will exit with an error.
+	If a user already exists, the system will exit with an error.
 
 	ex:
 	cooluser@home:~/$ userdbadmin -v database.db create UserName PassworD
@@ -42,8 +42,8 @@ A quick and simple script for administrating a bdb user db from the command line
 	
 	changepassword
 		The changepassword command will modify the password for a user
-  in the specified database.  Just like the Create command, the password
-is hashed using crypt(3). If the password and/or username is not in the
+	in the specified database.  Just like the Create command, the password
+	is hashed using crypt(3). If the password and/or username is not in the
 	command line, it will be prompted.
 
 	ex:
@@ -89,4 +89,4 @@ is hashed using crypt(3). If the password and/or username is not in the
 	Bob
 	Mary
 	Hank
-  cooluser@home:~/$
+	cooluser@home:~/$
